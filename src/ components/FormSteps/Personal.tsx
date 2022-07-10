@@ -16,7 +16,7 @@ const Personal: React.FC<IPersonalProps> = (props) => {
                 <button onClick={() => updateStep(-1)}>Previous</button>
                 <button onClick={() => updateStep(1)}>Submit</button>
             </div>
-            <div className="hourglass"></div>
+            {/* <div className="hourglass"></div> */}
         </div>
     )
 }
